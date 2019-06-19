@@ -5,7 +5,7 @@ metadata:
   name: titled
 data:
   entitlements.conf: |
-    {{repl `{{repl ShipCustomerRelease | Base64Encode }}` }}
+    {{repl ShipCustomerRelease | Base64Encode }}
 ---
 apiVersion: apps/v1
 kind: Deployment
